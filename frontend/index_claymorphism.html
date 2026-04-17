@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI College Recommender | Premium</title>
+    <meta name="description" content="AI-powered college recommendation engine. Get personalized B.Tech and degree college suggestions based on your marks, budget, location, and preferences.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        :root {
+            --bg: #f5efe8;
+            --surface: #fdfaf6;
+            --text-dark: #4a3c31;
+            --text-muted: #8b7968;
+            --accent: #d4a373;
+            --accent-hover: #c4915f;
+            --green: #5a9e6f;
+            --blue: #5a82be;
+            --red: #c0695a;
+            --clay-shadow-out: 12px 12px 24px #dfd6cd, -12px -12px 24px #ffffff;
+            --clay-shadow-in: inset 6px 6px 12px rgba(255,255,255,0.8), inset -6px -6px 12px rgba(0,0,0,0.04);
+            --clay-input-in: inset 4px 4px 8px #e2d8ce, inset -4px -4px 8px #ffffff;
+            --clay-btn-in: inset 4px 4px 10px rgba(255,255,255,0.3), inset -4px -4px 10px rgba(0,0,0,0.1);
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg);
+            color: var(--text-dark);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 360px 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+        @media(max-width: 900px) {
+            .container { grid-template-columns: 1fr; }
+        }
+
+        /* ─── HEADER ─── */
+        .header {
+            grid-column: 1 / -1;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            color: var(--accent);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        #collegeCountBadge {
+            margin-top: 15px;
+            display: inline-block;
+            padding: 6px 18px;
+            background: rgba(212, 163, 115, 0.15);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--accent);
+            border: 1px solid rgba(212, 163, 115, 0.3);
+        }
+
+        /* ─── LEFT PANEL: Sticky ─── */
+        .left-panel {
+            position: sticky;
+            top: 30px;
+        }
+
+        /* ─── CLAY CARD ─── */
+        .clay-card {
+            background: var(--surface);
+            border-radius: 35px;
+            padding: 35px;
+            box-shadow: var(--clay-shadow-out), var(--clay-shadow-in);
+            border: 1px solid rgba(255,255,255,0.5);
+        }
+
+        .clay-card h2 {
+            font-size: 1.4rem;
+            margin-bottom: 22px;
+            color: var(--text-dark);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* ─── FORMS ─── */
+        .form-group { margin-bottom: 18px; }
+
+        label {
+            display: block;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            margin-left: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 14px 18px;
+            background: var(--bg);
+            border: none;
+            border-radius: 18px;
+            color: var(--text-dark);
+            font-size: 0.97rem;
+            font-family: inherit;
+            font-weight: 500;
+            box-shadow: var(--clay-input-in);
+            outline: none;
+            transition: all 0.3s ease;
+            -webkit-appearance: none;
+        }
+
+        input:focus, select:focus {
+            box-shadow: var(--clay-input-in), 0 0 0 2px var(--accent);
+        }
+
+        /* ─── BUTTON ─── */
+        .clay-btn {
+            width: 100%;
+            padding: 17px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 18px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 6px 6px 15px rgba(212,163,115,0.4), -6px -6px 15px rgba(255,255,255,0.8), var(--clay-btn-in);
+            transition: all 0.2s ease;
+            margin-top: 10px;
+            letter-spacing: 0.3px;
+        }
+
+        .clay-btn:hover { background: var(--accent-hover); }
+
+        .clay-btn:active {
+            transform: translateY(2px);
+            box-shadow: 2px 2px 5px rgba(212,163,115,0.4), -2px -2px 5px rgba(255,255,255,0.8), inset 6px 6px 15px rgba(0,0,0,0.1);
+        }
+
+        .clay-btn:disabled { opacity: 0.7; cursor: not-allowed; transform: none; }
+
+        /* ─── LOADER ─── */
+        .loader {
+            display: none;
+            text-align: center;
+            padding: 12px;
+            font-weight: 700;
+            color: var(--accent);
+            animation: pulse 1.5s infinite;
+            font-size: 0.95rem;
+        }
+
+        @keyframes pulse {
+            0%,100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+
+        /* ─── RIGHT PANEL ─── */
+        .right-panel { display: flex; flex-direction: column; gap: 20px; }
+
+        .empty-state {
+            text-align: center;
+            padding: 70px 20px;
+            color: var(--text-muted);
+            font-weight: 500;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .empty-state .emoji { font-size: 3rem; display: block; margin-bottom: 15px; }
+
+        /* ─── SUMMARY CARD ─── */
+        .summary-card {
+            background: var(--surface);
+            border-radius: 25px;
+            padding: 22px 28px;
+            box-shadow: var(--clay-shadow-out), var(--clay-shadow-in);
+            border-left: 5px solid var(--accent);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            animation: fadeSlide 0.4s ease forwards;
+        }
+
+        .summary-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .summary-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .summary-stats {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .stat-chip {
+            padding: 5px 13px;
+            border-radius: 30px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            background: rgba(212,163,115,0.12);
+            color: var(--accent);
+            border: 1px solid rgba(212,163,115,0.25);
+        }
+
+        .summary-text {
+            font-size: 0.95rem;
+            color: var(--text-dark);
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        /* ─── RESULTS HEADER ─── */
+        .results-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .results-header h2 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--text-dark);
+        }
+
+        .total-badge {
+            padding: 5px 14px;
+            border-radius: 20px;
+            background: rgba(90, 158, 111, 0.12);
+            color: var(--green);
+            font-size: 0.82rem;
+            font-weight: 700;
+            border: 1px solid rgba(90,158,111,0.25);
+        }
+
+        /* ─── COLLEGE ITEM ─── */
+        .college-item {
+            background: var(--surface);
+            border-radius: 28px;
+            padding: 26px;
+            box-shadow: var(--clay-shadow-out), var(--clay-shadow-in);
+            border: 1px solid rgba(255,255,255,0.5);
+            animation: fadeSlide 0.4s ease forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeSlide {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .college-item:nth-child(1) { animation-delay: 0.05s; }
+        .college-item:nth-child(2) { animation-delay: 0.12s; }
+        .college-item:nth-child(3) { animation-delay: 0.19s; }
+        .college-item:nth-child(4) { animation-delay: 0.26s; }
+        .college-item:nth-child(5) { animation-delay: 0.33s; }
+
+        /* College header row */
+        .c-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 14px;
+            gap: 10px;
+        }
+
+        .c-left { display: flex; align-items: flex-start; gap: 14px; }
+
+        .rank-badge {
+            min-width: 40px;
+            height: 40px;
+            border-radius: 14px;
+            background: var(--accent);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: 800;
+            box-shadow: 4px 4px 10px rgba(212,163,115,0.4);
+            flex-shrink: 0;
+        }
+
+        .c-name {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            line-height: 1.3;
+        }
+
+        .c-city {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin-top: 3px;
+        }
+
+        .c-type {
+            font-size: 0.72rem;
+            padding: 5px 12px;
+            border-radius: 12px;
+            background: var(--bg);
+            box-shadow: 4px 4px 10px #dfd6cd, -4px -4px 10px #ffffff;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+            align-self: flex-start;
+        }
+
+        /* Meta row */
+        .c-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+
+        .meta-chip {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 6px 13px;
+            border-radius: 30px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            background: var(--bg);
+            box-shadow: 3px 3px 8px #dfd6cd, -3px -3px 8px #ffffff;
+            color: var(--text-dark);
+        }
+
+        .meta-chip.green { background: rgba(90,158,111,0.1); color: var(--green); }
+        .meta-chip.blue  { background: rgba(90,130,190,0.1); color: var(--blue); }
+        .meta-chip.gold  { background: rgba(212,163,115,0.12); color: var(--accent); }
+        .meta-chip.red   { background: rgba(192,105,90,0.1); color: var(--red); }
+
+        /* Tags row: branches, exams, hostel */
+        .c-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7px;
+            margin-bottom: 14px;
+        }
+
+        .tag {
+            padding: 4px 11px;
+            border-radius: 10px;
+            font-size: 0.76rem;
+            font-weight: 600;
+        }
+
+        .tag-branch {
+            background: rgba(90,130,190,0.1);
+            color: var(--blue);
+            border: 1px solid rgba(90,130,190,0.2);
+        }
+
+        .tag-exam {
+            background: rgba(212,163,115,0.12);
+            color: var(--accent);
+            border: 1px solid rgba(212,163,115,0.25);
+        }
+
+        .tag-hostel {
+            background: rgba(90,158,111,0.1);
+            color: var(--green);
+            border: 1px solid rgba(90,158,111,0.25);
+        }
+
+        .tag-no-hostel {
+            background: rgba(192,105,90,0.08);
+            color: var(--red);
+            border: 1px solid rgba(192,105,90,0.2);
+        }
+
+        /* Reason block */
+        .c-reason {
+            background: rgba(212,163,115,0.07);
+            border-left: 4px solid var(--accent);
+            padding: 14px 16px;
+            border-radius: 14px;
+            font-size: 0.9rem;
+            line-height: 1.55;
+            color: var(--text-dark);
+            margin-bottom: 16px;
+        }
+
+        /* Footer row */
+        .c-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .naac-badge {
+            padding: 5px 14px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .naac-ap  { background: rgba(90,158,111,0.15); color: var(--green); border: 1px solid rgba(90,158,111,0.3); }
+        .naac-a   { background: rgba(90,130,190,0.12); color: var(--blue);  border: 1px solid rgba(90,130,190,0.25); }
+        .naac-b   { background: rgba(212,163,115,0.12); color: var(--accent); border: 1px solid rgba(212,163,115,0.3); }
+        .naac-default { background: var(--bg); color: var(--text-muted); box-shadow: 3px 3px 8px #dfd6cd, -3px -3px 8px #ffffff; }
+
+        .c-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            color: white;
+            background: var(--text-dark);
+            padding: 10px 20px;
+            border-radius: 14px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            box-shadow: 4px 4px 10px rgba(0,0,0,0.1), var(--clay-btn-in);
+            transition: background 0.2s;
+        }
+
+        .c-link:hover { background: var(--accent); }
+
+        /* ─── PROCESSING FOOTER ─── */
+        .processing-footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            padding: 10px 0 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>IvyRecommender</h1>
+            <p>Premium AI-Driven College Placements</p>
+            <div id="collegeCountBadge">📡 Scanning Colleges...</div>
+        </div>
+
+        <!-- LEFT: Form -->
+        <div class="left-panel">
+            <div class="clay-card">
+                <h2>✨ Your Profile</h2>
+                <form id="clayForm">
+                    <div class="form-group">
+                        <label>Marks (%)</label>
+                        <input type="number" id="marks" required placeholder="e.g. 80" min="0" max="100">
+                    </div>
+                    <div class="form-group">
+                        <label>Budget (₹ / year)</label>
+                        <input type="number" id="budget" required placeholder="e.g. 180000">
+                    </div>
+                    <div class="form-group">
+                        <label>Location</label>
+                        <select id="location" required><option value="">Loading...</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label>Course</label>
+                        <select id="course" required><option value="">Loading...</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label>Branch</label>
+                        <select id="branch"><option value="">Any Branch</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label>Category</label>
+                        <select id="category">
+                            <option value="general">General</option>
+                            <option value="obc">OBC</option>
+                            <option value="sc">SC</option>
+                            <option value="st">ST</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="clay-btn" id="btnSubmit">🎓 Discover Colleges</button>
+                    <div class="loader" id="loader">✨ AI is analyzing your profile...</div>
+                </form>
+            </div>
+        </div>
+
+        <!-- RIGHT: Results -->
+        <div class="right-panel" id="rightPanel">
+            <div class="clay-card">
+                <div class="empty-state">
+                    <span class="emoji">🏫</span>
+                    Fill out your profile on the left and click <strong>Discover Colleges</strong> to see personalised AI recommendations.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://127.0.0.1:8000/api';
+
+        /* ── Metadata ── */
+        async function initMetadata() {
+            try {
+                const res  = await fetch(`${API_URL}/metadata`);
+                const data = await res.json();
+
+                const locs = document.getElementById('location');
+                locs.innerHTML = '<option value="">Choose State / City</option>';
+                data.locations.forEach(l => locs.innerHTML += `<option value="${l}">${l}</option>`);
+
+                const crs = document.getElementById('course');
+                crs.innerHTML = '<option value="">Choose Course</option>';
+                data.courses.forEach(c => crs.innerHTML += `<option value="${c}">${c}</option>`);
+
+                const brs = document.getElementById('branch');
+                brs.innerHTML = '<option value="">Any Branch</option>';
+                data.branches.forEach(b => brs.innerHTML += `<option value="${b}">${b}</option>`);
+
+                if (data.total_colleges) {
+                    const govt   = data.government_colleges ?? '';
+                    const pvt    = data.private_colleges ?? '';
+                    const states = data.states_covered ?? '';
+                    document.getElementById('collegeCountBadge').innerHTML =
+                        `✨ <strong>${data.total_colleges} Colleges</strong> &nbsp;·&nbsp; ${states} States &nbsp;·&nbsp; ${govt} Govt &nbsp;·&nbsp; ${pvt} Private`;
+                }
+            } catch(e) {
+                console.error('Metadata fetch failed:', e);
+            }
+        }
+        initMetadata();
+
+        /* ── NAAC Badge class helper ── */
+        function naacClass(grade) {
+            if (!grade) return 'naac-default';
+            const g = grade.trim().toUpperCase();
+            if (g === 'A+' || g === 'A++') return 'naac-ap';
+            if (g === 'A')  return 'naac-a';
+            if (g.startsWith('B')) return 'naac-b';
+            return 'naac-default';
+        }
+
+        /* ── Render results ── */
+        function renderResults(data) {
+            const panel = document.getElementById('rightPanel');
+            panel.innerHTML = '';
+
+            if (data.error) {
+                panel.innerHTML = `
+                    <div class="clay-card">
+                        <div class="empty-state">
+                            <span class="emoji">⚠️</span>
+                            <strong>Error:</strong> ${data.detail || data.error}
+                        </div>
+                    </div>`;
+                return;
+            }
+
+            const recs = data.recommendations || [];
+
+            /* ─ Student Summary Card ─ */
+            if (data.student_summary) {
+                const totalMatched  = data.total_matched  ?? recs.length;
+                const processingTime = data.processing_time_seconds != null
+                    ? `${data.processing_time_seconds}s` : null;
+
+                const statsHtml = [
+                    totalMatched  != null ? `<span class="stat-chip">🎯 ${totalMatched} Matches Found</span>` : '',
+                    processingTime        ? `<span class="stat-chip">⚡ ${processingTime}</span>`             : '',
+                ].join('');
+
+                panel.innerHTML += `
+                <div class="summary-card">
+                    <div class="summary-header">
+                        <div class="summary-title">💡 Student Profile Summary</div>
+                        <div class="summary-stats">${statsHtml}</div>
+                    </div>
+                    <div class="summary-text">${data.student_summary}</div>
+                </div>`;
+            }
+
+            if (recs.length === 0) {
+                panel.innerHTML += `
+                    <div class="clay-card">
+                        <div class="empty-state">
+                            <span class="emoji">😕</span>
+                            No colleges matched your criteria. Try relaxing your filters.
+                        </div>
+                    </div>`;
+                return;
+            }
+
+            /* ─ Results Header ─ */
+            panel.innerHTML += `
+            <div class="results-header">
+                <h2>🏆 Top Matches</h2>
+                <span class="total-badge">Showing ${recs.length} of ${data.total_matched ?? recs.length} matches</span>
+            </div>`;
+
+            /* ─ College Cards ─ */
+            recs.forEach((c, idx) => {
+                /* Branches */
+                const branchTags = (c.branches_available || [])
+                    .map(b => `<span class="tag tag-branch">📚 ${b}</span>`).join('');
+
+                /* Entrance Exams */
+                const examTags = (c.entrance_exam || [])
+                    .map(e => `<span class="tag tag-exam">📝 ${e}</span>`).join('');
+
+                /* Hostel */
+                const hostelTag = c.hostel
+                    ? `<span class="tag tag-hostel">🏠 Hostel Available</span>`
+                    : `<span class="tag tag-no-hostel">🚫 No Hostel</span>`;
+
+                /* NAAC */
+                const naacHtml = c.naac_grade
+                    ? `<span class="naac-badge ${naacClass(c.naac_grade)}">NAAC ${c.naac_grade}</span>`
+                    : '';
+
+                panel.innerHTML += `
+                <div class="college-item">
+                    <div class="c-header">
+                        <div class="c-left">
+                            <div class="rank-badge">#${idx + 1}</div>
+                            <div>
+                                <div class="c-name">${c.name}</div>
+                                <div class="c-city">📍 ${c.city}, ${c.state}</div>
+                            </div>
+                        </div>
+                        <div class="c-type">${c.type}</div>
+                    </div>
+
+                    <div class="c-meta">
+                        <div class="meta-chip gold">💰 ${c.fees_per_year}/yr</div>
+                        <div class="meta-chip green">📈 ${c.placement_avg_lpa} LPA Avg</div>
+                    </div>
+
+                    <div class="c-tags">
+                        ${branchTags}
+                        ${examTags}
+                        ${hostelTag}
+                    </div>
+
+                    <div class="c-reason">${c.reason}</div>
+
+                    <div class="c-footer">
+                        ${naacHtml}
+                        <a href="https://${c.website}" target="_blank" rel="noopener" class="c-link">
+                            🌐 Visit Website
+                        </a>
+                    </div>
+                </div>`;
+            });
+
+            /* ─ Processing Footer ─ */
+            if (data.processing_time_seconds != null) {
+                panel.innerHTML += `
+                <div class="processing-footer">
+                    ⚡ Results generated in ${data.processing_time_seconds}s by AI
+                </div>`;
+            }
+        }
+
+        /* ── Form Submit ── */
+        document.getElementById('clayForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const btn    = document.getElementById('btnSubmit');
+            const loader = document.getElementById('loader');
+            const panel  = document.getElementById('rightPanel');
+
+            btn.disabled       = true;
+            btn.style.display  = 'none';
+            loader.style.display = 'block';
+            panel.innerHTML    = '';
+
+            const payload = {
+                marks:    parseInt(document.getElementById('marks').value),
+                budget:   parseInt(document.getElementById('budget').value),
+                location: document.getElementById('location').value,
+                course:   document.getElementById('course').value,
+                branch:   document.getElementById('branch').value || null,
+                category: document.getElementById('category').value
+            };
+
+            try {
+                const res  = await fetch(`${API_URL}/recommend-college`, {
+                    method:  'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body:    JSON.stringify(payload)
+                });
+                const data = await res.json();
+                renderResults(data);
+            } catch(err) {
+                panel.innerHTML = `
+                    <div class="clay-card">
+                        <div class="empty-state">
+                            <span class="emoji">📡</span>
+                            <strong>Network Error:</strong> Could not reach the local API.<br>
+                            Make sure <code>uvicorn main:app --reload</code> is running on port 8000.
+                        </div>
+                    </div>`;
+            }
+
+            btn.disabled       = false;
+            btn.style.display  = 'block';
+            loader.style.display = 'none';
+        });
+    </script>
+</body>
+</html>

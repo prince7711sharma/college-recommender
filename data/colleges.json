@@ -1,0 +1,4883 @@
+{
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Delhi Technological University (DTU)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Government",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Software Engineering"
+      ],
+      "fees_per_year": 150000,
+      "entrance_exam": [
+        "JEE Main",
+        "JAC Delhi"
+      ],
+      "cutoff_rank": {
+        "general": 5000,
+        "obc": 8000,
+        "sc": 15000,
+        "st": 20000
+      },
+      "placement_avg_lpa": 12,
+      "placement_highest_lpa": 60,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.dtu.ac.in",
+      "contact": "011-27871018",
+      "facilities": [
+        "Library",
+        "Sports Complex",
+        "Labs",
+        "Cafeteria",
+        "Wi-Fi Campus"
+      ],
+      "description": "Premier engineering university in Delhi with excellent placement record."
+    },
+    {
+      "id": 2,
+      "name": "Netaji Subhas University of Technology (NSUT)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Government",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "IT",
+        "Bio-Technology",
+        "Instrumentation"
+      ],
+      "fees_per_year": 140000,
+      "entrance_exam": [
+        "JEE Main",
+        "JAC Delhi"
+      ],
+      "cutoff_rank": {
+        "general": 6000,
+        "obc": 9000,
+        "sc": 18000,
+        "st": 22000
+      },
+      "placement_avg_lpa": 10,
+      "placement_highest_lpa": 45,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.nsut.ac.in",
+      "contact": "011-25099042",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Cafeteria",
+        "Sports Ground",
+        "Wi-Fi"
+      ],
+      "description": "Top engineering college in Delhi under JAC counselling."
+    },
+    {
+      "id": 3,
+      "name": "Indraprastha Institute of Information Technology Delhi (IIIT-D)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Deemed Government",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics & Communication",
+        "Computer Science & Applied Maths",
+        "Computer Science & Biosciences"
+      ],
+      "fees_per_year": 320000,
+      "entrance_exam": [
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 3000,
+        "obc": 5000,
+        "sc": 10000,
+        "st": 15000
+      },
+      "placement_avg_lpa": 18,
+      "placement_highest_lpa": 80,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.iiitd.ac.in",
+      "contact": "011-26907400",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports",
+        "Cafeteria",
+        "Wi-Fi",
+        "Research Centers"
+      ],
+      "description": "Research-focused institute specializing in IT and interdisciplinary programs."
+    },
+    {
+      "id": 4,
+      "name": "Jamia Millia Islamia (JMI)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Central University",
+      "courses": [
+        "B.Tech",
+        "B.Sc",
+        "B.A",
+        "M.Tech",
+        "MBA",
+        "LLB",
+        "MBBS"
+      ],
+      "branches": [
+        "Computer Engineering",
+        "Electronics",
+        "Civil",
+        "Mechanical",
+        "Architecture"
+      ],
+      "fees_per_year": 80000,
+      "entrance_exam": [
+        "JEE Main",
+        "JMI Entrance"
+      ],
+      "cutoff_rank": {
+        "general": 15000,
+        "obc": 22000,
+        "sc": 35000,
+        "st": 45000
+      },
+      "placement_avg_lpa": 8,
+      "placement_highest_lpa": 35,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.jmi.ac.in",
+      "contact": "011-26981717",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hospital",
+        "Sports Complex",
+        "Mosque",
+        "Wi-Fi"
+      ],
+      "description": "Central university offering diverse courses with minority institution status."
+    },
+    {
+      "id": 5,
+      "name": "Guru Gobind Singh Indraprastha University (GGSIPU)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "State University",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA",
+        "LLB",
+        "B.Pharma",
+        "MBBS",
+        "B.Ed"
+      ],
+      "branches": [
+        "Computer Science",
+        "IT",
+        "Electronics",
+        "Mechanical",
+        "Civil"
+      ],
+      "fees_per_year": 120000,
+      "entrance_exam": [
+        "IPU CET",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 10000,
+        "obc": 15000,
+        "sc": 25000,
+        "st": 30000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 30,
+      "hostel": false,
+      "naac_grade": "A",
+      "website": "www.ipu.ac.in",
+      "contact": "011-25302170",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Wi-Fi"
+      ],
+      "description": "Largest state university in Delhi with affiliating colleges across the NCR region."
+    },
+    {
+      "id": 6,
+      "name": "National Institute of Technology Kurukshetra (NIT KKR)",
+      "state": "Haryana",
+      "city": "Kurukshetra",
+      "type": "Government (NIT)",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Electrical",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Chemical"
+      ],
+      "fees_per_year": 130000,
+      "entrance_exam": [
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 12000,
+        "obc": 18000,
+        "sc": 30000,
+        "st": 40000
+      },
+      "placement_avg_lpa": 11,
+      "placement_highest_lpa": 55,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.nitkkr.ac.in",
+      "contact": "01744-233208",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Bank"
+      ],
+      "description": "Prestigious NIT in Haryana with strong technical education and placement support."
+    },
+    {
+      "id": 7,
+      "name": "Maharishi Dayanand University (MDU)",
+      "state": "Haryana",
+      "city": "Rohtak",
+      "type": "State University",
+      "courses": [
+        "B.Tech",
+        "B.Sc",
+        "B.Com",
+        "MBA",
+        "MCA",
+        "LLB",
+        "B.Ed",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "IT",
+        "Electronics",
+        "Mechanical",
+        "Civil"
+      ],
+      "fees_per_year": 75000,
+      "entrance_exam": [
+        "MDU Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 40000,
+        "obc": 55000,
+        "sc": 70000,
+        "st": 80000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 18,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.mdurohtak.ac.in",
+      "contact": "01262-274327",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Wi-Fi"
+      ],
+      "description": "Major affiliating university in Haryana covering multiple disciplines."
+    },
+    {
+      "id": 8,
+      "name": "Kurukshetra University",
+      "state": "Haryana",
+      "city": "Kurukshetra",
+      "type": "State University",
+      "courses": [
+        "B.Tech",
+        "B.Sc",
+        "B.Com",
+        "MBA",
+        "MCA",
+        "LLB",
+        "M.Sc"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil"
+      ],
+      "fees_per_year": 60000,
+      "entrance_exam": [
+        "KU Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 50000,
+        "obc": 65000,
+        "sc": 80000,
+        "st": 90000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 15,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.kuk.ac.in",
+      "contact": "01744-238039",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel"
+      ],
+      "description": "Historic university in Haryana offering affordable quality education."
+    },
+    {
+      "id": 9,
+      "name": "Amity University Gurugram",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BCA",
+        "MCA",
+        "B.Sc",
+        "B.Com",
+        "LLB"
+      ],
+      "branches": [
+        "Computer Science",
+        "IT",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Data Science",
+        "AI & ML"
+      ],
+      "fees_per_year": 280000,
+      "entrance_exam": [
+        "AUSAT",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 100000,
+        "obc": 100000,
+        "sc": 100000,
+        "st": 100000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 25,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.amity.edu/gurugram",
+      "contact": "0124-2337015",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym"
+      ],
+      "description": "Top private university near Delhi NCR with modern infrastructure."
+    },
+    {
+      "id": 10,
+      "name": "YMCA University of Science and Technology",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Government",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Engineering",
+        "Electronics",
+        "Mechanical",
+        "IT"
+      ],
+      "fees_per_year": 95000,
+      "entrance_exam": [
+        "JEE Main",
+        "Haryana State Entrance"
+      ],
+      "cutoff_rank": {
+        "general": 30000,
+        "obc": 45000,
+        "sc": 60000,
+        "st": 70000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 22,
+      "hostel": true,
+      "naac_grade": "B++",
+      "website": "www.ymcaust.ac.in",
+      "contact": "0129-2310137",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Wi-Fi"
+      ],
+      "description": "Affordable government engineering college near Delhi in Faridabad."
+    },
+    {
+      "id": 11,
+      "name": "Indian Institute of Technology (IIT) Kanpur",
+      "state": "Uttar Pradesh",
+      "city": "Kanpur",
+      "type": "Government (IIT)",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "Ph.D",
+        "MSc"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electrical Engineering",
+        "Mechanical",
+        "Aerospace",
+        "Chemical",
+        "Civil",
+        "Physics",
+        "Mathematics"
+      ],
+      "fees_per_year": 110000,
+      "entrance_exam": [
+        "JEE Advanced"
+      ],
+      "cutoff_rank": {
+        "general": 500,
+        "obc": 900,
+        "sc": 3000,
+        "st": 5000
+      },
+      "placement_avg_lpa": 25,
+      "placement_highest_lpa": 2000,
+      "hostel": true,
+      "naac_grade": "A++",
+      "website": "www.iitk.ac.in",
+      "contact": "0512-2590123",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Research Centers",
+        "Sports Complex",
+        "Hostel",
+        "Hospital",
+        "Wi-Fi"
+      ],
+      "description": "One of India's top engineering institutes with world-class research facilities."
+    },
+    {
+      "id": 12,
+      "name": "Banaras Hindu University (BHU)",
+      "state": "Uttar Pradesh",
+      "city": "Varanasi",
+      "type": "Central University",
+      "courses": [
+        "B.Tech",
+        "B.Sc",
+        "B.A",
+        "MBBS",
+        "LLB",
+        "MBA",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Chemical",
+        "Metallurgical"
+      ],
+      "fees_per_year": 45000,
+      "entrance_exam": [
+        "JEE Main",
+        "BHU UET"
+      ],
+      "cutoff_rank": {
+        "general": 20000,
+        "obc": 30000,
+        "sc": 45000,
+        "st": 55000
+      },
+      "placement_avg_lpa": 8,
+      "placement_highest_lpa": 40,
+      "hostel": true,
+      "naac_grade": "A++",
+      "website": "www.bhu.ac.in",
+      "contact": "0542-2307194",
+      "facilities": [
+        "Library",
+        "Hospital",
+        "Labs",
+        "Sports Complex",
+        "Temple",
+        "Hostel",
+        "Wi-Fi"
+      ],
+      "description": "One of the largest residential universities in Asia with diverse programs."
+    },
+    {
+      "id": 13,
+      "name": "Aligarh Muslim University (AMU)",
+      "state": "Uttar Pradesh",
+      "city": "Aligarh",
+      "type": "Central University",
+      "courses": [
+        "B.Tech",
+        "MBBS",
+        "LLB",
+        "B.A",
+        "B.Sc",
+        "MBA",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Engineering",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Chemical"
+      ],
+      "fees_per_year": 55000,
+      "entrance_exam": [
+        "AMU Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 25000,
+        "obc": 35000,
+        "sc": 50000,
+        "st": 60000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 30,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.amu.ac.in",
+      "contact": "0571-2700920",
+      "facilities": [
+        "Library",
+        "Hospital",
+        "Labs",
+        "Sports Complex",
+        "Mosque",
+        "Hostel"
+      ],
+      "description": "Historic central university with minority institution status and strong alumni network."
+    },
+    {
+      "id": 14,
+      "name": "Harcourt Butler Technical University (HBTU)",
+      "state": "Uttar Pradesh",
+      "city": "Kanpur",
+      "type": "Government",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Chemical",
+        "Civil",
+        "IT"
+      ],
+      "fees_per_year": 85000,
+      "entrance_exam": [
+        "UPSEE",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 15000,
+        "obc": 22000,
+        "sc": 35000,
+        "st": 45000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 28,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.hbtu.ac.in",
+      "contact": "0512-2533537",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Wi-Fi"
+      ],
+      "description": "Old and reputed technical university in UP with strong industry connections."
+    },
+    {
+      "id": 15,
+      "name": "Amity University Noida",
+      "state": "Uttar Pradesh",
+      "city": "Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BCA",
+        "MCA",
+        "LLB",
+        "B.Sc",
+        "B.Com",
+        "B.Design"
+      ],
+      "branches": [
+        "Computer Science",
+        "IT",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "AI & ML",
+        "Data Science"
+      ],
+      "fees_per_year": 300000,
+      "entrance_exam": [
+        "AUSAT",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 100000,
+        "obc": 100000,
+        "sc": 100000,
+        "st": 100000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 30,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.amity.edu/noida",
+      "contact": "0120-4392000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Auditorium"
+      ],
+      "description": "Top private university in NCR with multinational campus and global collaborations."
+    },
+    {
+      "id": 16,
+      "name": "Dr. A.P.J. Abdul Kalam Technical University (AKTU)",
+      "state": "Uttar Pradesh",
+      "city": "Lucknow",
+      "type": "State University",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA",
+        "B.Pharma"
+      ],
+      "branches": [
+        "Computer Science",
+        "IT",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Chemical"
+      ],
+      "fees_per_year": 70000,
+      "entrance_exam": [
+        "UPSEE/CUET"
+      ],
+      "cutoff_rank": {
+        "general": 35000,
+        "obc": 50000,
+        "sc": 70000,
+        "st": 85000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 20,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.aktu.ac.in",
+      "contact": "0522-2732188",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Wi-Fi"
+      ],
+      "description": "Major affiliating technical university in UP governing hundreds of engineering colleges."
+    },
+    {
+      "id": 17,
+      "name": "Bennett University",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "LLB",
+        "B.Sc",
+        "B.Com",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "AI & ML",
+        "Data Science",
+        "Cyber Security"
+      ],
+      "fees_per_year": 250000,
+      "entrance_exam": [
+        "Bennett Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 80000,
+        "obc": 80000,
+        "sc": 80000,
+        "st": 80000
+      },
+      "placement_avg_lpa": 8,
+      "placement_highest_lpa": 32,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.bennett.edu.in",
+      "contact": "1800-103-8484",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Media Lab"
+      ],
+      "description": "Times Group-affiliated private university known for journalism and technology programs."
+    },
+    {
+      "id": 18,
+      "name": "J.C. Bose University of Science and Technology",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Government",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA",
+        "BCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil"
+      ],
+      "fees_per_year": 90000,
+      "entrance_exam": [
+        "JEE Main",
+        "HSTES"
+      ],
+      "cutoff_rank": {
+        "general": 28000,
+        "obc": 40000,
+        "sc": 55000,
+        "st": 65000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 20,
+      "hostel": true,
+      "naac_grade": "B++",
+      "website": "www.jcboseust.ac.in",
+      "contact": "0129-2310137",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Wi-Fi"
+      ],
+      "description": "Government technical university in Haryana offering affordable engineering education."
+    },
+    {
+      "id": 19,
+      "name": "GL Bajaj Institute of Technology",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT"
+      ],
+      "fees_per_year": 110000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPSEE"
+      ],
+      "cutoff_rank": {
+        "general": 60000,
+        "obc": 75000,
+        "sc": 90000,
+        "st": 100000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 18,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.glbitm.ac.in",
+      "contact": "0120-2323854",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria"
+      ],
+      "description": "Affordable private engineering college near Delhi with decent placement record."
+    },
+    {
+      "id": 20,
+      "name": "Shiv Nadar University",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private Deemed",
+      "courses": [
+        "B.Tech",
+        "B.Sc",
+        "MBA",
+        "M.Tech",
+        "Ph.D",
+        "B.Design"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Chemical",
+        "Physics",
+        "Mathematics"
+      ],
+      "fees_per_year": 350000,
+      "entrance_exam": [
+        "SNUSAT",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 15000,
+        "obc": 20000,
+        "sc": 30000,
+        "st": 40000
+      },
+      "placement_avg_lpa": 14,
+      "placement_highest_lpa": 65,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.snu.edu.in",
+      "contact": "0120-3819100",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Research Centers",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym"
+      ],
+      "description": "Premium private university with research focus and excellent industry connections."
+    },
+    {
+      "id": 21,
+      "name": "University of Delhi (DU)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Central University",
+      "courses": [
+        "B.A",
+        "B.Sc",
+        "B.Com",
+        "LLB",
+        "MBA",
+        "M.A",
+        "M.Sc",
+        "Ph.D"
+      ],
+      "branches": [
+        "Arts",
+        "Science",
+        "Commerce",
+        "Law",
+        "Economics",
+        "History",
+        "Mathematics",
+        "Physics"
+      ],
+      "fees_per_year": 25000,
+      "entrance_exam": [
+        "CUET",
+        "DU Entrance"
+      ],
+      "cutoff_rank": {
+        "general": 95,
+        "obc": 90,
+        "sc": 85,
+        "st": 80
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 25,
+      "hostel": true,
+      "naac_grade": "A++",
+      "website": "www.du.ac.in",
+      "contact": "011-27667725",
+      "facilities": [
+        "Library",
+        "Sports Complex",
+        "Labs",
+        "Hostel",
+        "Wi-Fi",
+        "Cultural Centers"
+      ],
+      "description": "One of India's most prestigious central universities with 90+ affiliated colleges offering diverse undergraduate and postgraduate programs."
+    },
+    {
+      "id": 22,
+      "name": "Indira Gandhi Delhi Technical University for Women (IGDTUW)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Government",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "IT",
+        "Electrical",
+        "Mechanical"
+      ],
+      "fees_per_year": 130000,
+      "entrance_exam": [
+        "JEE Main",
+        "JAC Delhi"
+      ],
+      "cutoff_rank": {
+        "general": 8000,
+        "obc": 12000,
+        "sc": 20000,
+        "st": 28000
+      },
+      "placement_avg_lpa": 9,
+      "placement_highest_lpa": 40,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.igdtuw.ac.in",
+      "contact": "011-23900251",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Wi-Fi",
+        "Cafeteria"
+      ],
+      "description": "Premier government technical university exclusively for women in Delhi with strong placement record."
+    },
+    {
+      "id": 23,
+      "name": "Ambedkar University Delhi",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "State University",
+      "courses": [
+        "B.A",
+        "B.Sc",
+        "B.Com",
+        "M.A",
+        "M.Sc",
+        "Ph.D"
+      ],
+      "branches": [
+        "Social Sciences",
+        "Humanities",
+        "Education",
+        "Psychology",
+        "Economics",
+        "Law"
+      ],
+      "fees_per_year": 30000,
+      "entrance_exam": [
+        "AUD Entrance",
+        "CUET"
+      ],
+      "cutoff_rank": {
+        "general": 90,
+        "obc": 85,
+        "sc": 80,
+        "st": 75
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 15,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.aud.ac.in",
+      "contact": "011-23009718",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Wi-Fi",
+        "Cultural Centers"
+      ],
+      "description": "State university in Delhi focused on humanities, social sciences and interdisciplinary education with an inclusive approach."
+    },
+    {
+      "id": 24,
+      "name": "National Law University Delhi (NLU Delhi)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Government",
+      "courses": [
+        "B.A. LLB",
+        "LLM",
+        "Ph.D"
+      ],
+      "branches": [
+        "Constitutional Law",
+        "Criminal Law",
+        "Corporate Law",
+        "International Law",
+        "Human Rights"
+      ],
+      "fees_per_year": 220000,
+      "entrance_exam": [
+        "CLAT",
+        "AILET"
+      ],
+      "cutoff_rank": {
+        "general": 50,
+        "obc": 150,
+        "sc": 400,
+        "st": 600
+      },
+      "placement_avg_lpa": 15,
+      "placement_highest_lpa": 55,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.nludelhi.ac.in",
+      "contact": "011-28034255",
+      "facilities": [
+        "Library",
+        "Moot Court",
+        "Hostel",
+        "Wi-Fi",
+        "Research Center",
+        "Cafeteria"
+      ],
+      "description": "One of India's top National Law Universities offering elite legal education and outstanding bar & corporate placement."
+    },
+    {
+      "id": 25,
+      "name": "Delhi Pharmaceutical Sciences and Research University",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Government",
+      "courses": [
+        "B.Pharma",
+        "M.Pharma",
+        "Pharm.D",
+        "Ph.D"
+      ],
+      "branches": [
+        "Pharmaceutics",
+        "Pharmacology",
+        "Pharmaceutical Chemistry",
+        "Pharmacognosy"
+      ],
+      "fees_per_year": 90000,
+      "entrance_exam": [
+        "DPSRU Entrance",
+        "GPAT"
+      ],
+      "cutoff_rank": {
+        "general": 5000,
+        "obc": 8000,
+        "sc": 12000,
+        "st": 16000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 18,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.dpsru.edu.in",
+      "contact": "011-28751000",
+      "facilities": [
+        "Library",
+        "Research Labs",
+        "Hostel",
+        "Wi-Fi",
+        "Pharmacy Museum"
+      ],
+      "description": "Delhi's dedicated pharmaceutical sciences university with strong research output and pharma industry connections."
+    },
+    {
+      "id": 26,
+      "name": "Guru Tegh Bahadur Institute of Technology",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Government",
+      "courses": [
+        "B.Tech",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT"
+      ],
+      "fees_per_year": 110000,
+      "entrance_exam": [
+        "JEE Main",
+        "JAC Delhi"
+      ],
+      "cutoff_rank": {
+        "general": 18000,
+        "obc": 26000,
+        "sc": 40000,
+        "st": 52000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 28,
+      "hostel": false,
+      "naac_grade": "B++",
+      "website": "www.gtbit.org",
+      "contact": "011-25105067",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Well-established government-aided engineering institute in Delhi affiliated to GGSIPU."
+    },
+    {
+      "id": 27,
+      "name": "Maharaja Agrasen Institute of Technology",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "IT",
+        "Mechanical",
+        "Civil",
+        "AI & ML"
+      ],
+      "fees_per_year": 135000,
+      "entrance_exam": [
+        "JEE Main",
+        "IPU CET"
+      ],
+      "cutoff_rank": {
+        "general": 22000,
+        "obc": 32000,
+        "sc": 48000,
+        "st": 60000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 30,
+      "hostel": false,
+      "naac_grade": "A",
+      "website": "www.mait.ac.in",
+      "contact": "011-27296502",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi",
+        "Innovation Lab"
+      ],
+      "description": "Reputed private engineering college in Delhi affiliated to GGSIPU with good industry connect."
+    },
+    {
+      "id": 28,
+      "name": "Bharati Vidyapeeth Institute of Computer Applications & Management",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MCA",
+        "MBA",
+        "BCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "IT",
+        "Electronics",
+        "Management"
+      ],
+      "fees_per_year": 125000,
+      "entrance_exam": [
+        "IPU CET",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 30000,
+        "obc": 42000,
+        "sc": 58000,
+        "st": 70000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 22,
+      "hostel": false,
+      "naac_grade": "B+",
+      "website": "www.bvicam.ac.in",
+      "contact": "011-25275055",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Cafeteria",
+        "Wi-Fi",
+        "Seminar Hall"
+      ],
+      "description": "Well-known private institute in Delhi offering computer applications, IT and management programs."
+    },
+    {
+      "id": 29,
+      "name": "Vivekananda Institute of Professional Studies (VIPS)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "BCA",
+        "MCA",
+        "MBA",
+        "LLB",
+        "B.Com"
+      ],
+      "branches": [
+        "Computer Science",
+        "IT",
+        "Electronics",
+        "Management",
+        "Law"
+      ],
+      "fees_per_year": 120000,
+      "entrance_exam": [
+        "IPU CET",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 35000,
+        "obc": 48000,
+        "sc": 65000,
+        "st": 78000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 18,
+      "hostel": false,
+      "naac_grade": "A",
+      "website": "www.vips.edu",
+      "contact": "011-47041000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Multi-disciplinary private institution in Delhi offering technical, management and law programs under GGSIPU."
+    },
+    {
+      "id": 30,
+      "name": "Fairfield Institute of Management and Technology",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "IT",
+        "Electronics",
+        "Management"
+      ],
+      "fees_per_year": 100000,
+      "entrance_exam": [
+        "IPU CET",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 45000,
+        "obc": 60000,
+        "sc": 75000,
+        "st": 88000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": false,
+      "naac_grade": "B",
+      "website": "www.fairfield.in",
+      "contact": "011-28036200",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private management and technology institute in Delhi affiliated to GGSIPU."
+    },
+    {
+      "id": 31,
+      "name": "HMR Institute of Technology and Management",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT"
+      ],
+      "fees_per_year": 105000,
+      "entrance_exam": [
+        "IPU CET",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 42000,
+        "obc": 58000,
+        "sc": 72000,
+        "st": 85000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 14,
+      "hostel": false,
+      "naac_grade": "B+",
+      "website": "www.hmritm.ac.in",
+      "contact": "011-27205390",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Private engineering and management institute in North Delhi affiliated to GGSIPU."
+    },
+    {
+      "id": 32,
+      "name": "Northern India Engineering College (NIEC)",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT"
+      ],
+      "fees_per_year": 115000,
+      "entrance_exam": [
+        "IPU CET",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 38000,
+        "obc": 52000,
+        "sc": 68000,
+        "st": 80000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 16,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.niecdelhi.ac.in",
+      "contact": "011-27787070",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Established private engineering college in Delhi with hostel facility and GGSIPU affiliation."
+    },
+    {
+      "id": 33,
+      "name": "Bhagwan Parshuram Institute of Technology",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil"
+      ],
+      "fees_per_year": 108000,
+      "entrance_exam": [
+        "IPU CET",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 40000,
+        "obc": 55000,
+        "sc": 70000,
+        "st": 83000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 15,
+      "hostel": false,
+      "naac_grade": "B+",
+      "website": "www.bpitindia.com",
+      "contact": "011-27555121",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Private engineering college in Delhi affiliated to GGSIPU with focus on technical education."
+    },
+    {
+      "id": 34,
+      "name": "JIMS Engineering Management Technical Campus",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA",
+        "BCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "IT",
+        "Electronics",
+        "Management"
+      ],
+      "fees_per_year": 98000,
+      "entrance_exam": [
+        "IPU CET",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 48000,
+        "obc": 62000,
+        "sc": 78000,
+        "st": 90000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": false,
+      "naac_grade": "B",
+      "website": "www.jimsindia.org",
+      "contact": "011-27555143",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private management and engineering campus in Delhi under GGSIPU offering technical and management degrees."
+    },
+    {
+      "id": 35,
+      "name": "Galgotias University",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA",
+        "BCA",
+        "B.Sc",
+        "LLB",
+        "B.Com"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML",
+        "Data Science",
+        "Cyber Security"
+      ],
+      "fees_per_year": 145000,
+      "entrance_exam": [
+        "GSAT",
+        "JEE Main",
+        "CUET"
+      ],
+      "cutoff_rank": {
+        "general": 70000,
+        "obc": 85000,
+        "sc": 100000,
+        "st": 110000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 28,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.galgotiasuniversity.edu.in",
+      "contact": "0120-4370000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym"
+      ],
+      "description": "Large private university in Greater Noida with diverse programs and strong placement network across IT and core sectors."
+    },
+    {
+      "id": 36,
+      "name": "Galgotias College of Engineering and Technology",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 120000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPSEE"
+      ],
+      "cutoff_rank": {
+        "general": 75000,
+        "obc": 90000,
+        "sc": 105000,
+        "st": 115000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 22,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.galgotiacollege.edu",
+      "contact": "0120-2323016",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "One of the oldest and most recognised private engineering colleges in Greater Noida affiliated to AKTU."
+    },
+    {
+      "id": 37,
+      "name": "Sharda University",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBBS",
+        "MBA",
+        "LLB",
+        "B.Sc",
+        "BCA",
+        "MCA",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Biotechnology",
+        "AI & ML"
+      ],
+      "fees_per_year": 160000,
+      "entrance_exam": [
+        "Sharda Entrance",
+        "JEE Main",
+        "NEET"
+      ],
+      "cutoff_rank": {
+        "general": 80000,
+        "obc": 95000,
+        "sc": 110000,
+        "st": 120000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 26,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.sharda.ac.in",
+      "contact": "0120-3001001",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hospital",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym"
+      ],
+      "description": "Multi-disciplinary private university in Greater Noida offering technical, medical and management programs with a large international student base."
+    },
+    {
+      "id": 38,
+      "name": "Noida Institute of Engineering and Technology (NIET)",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA",
+        "B.Pharma"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 115000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPSEE"
+      ],
+      "cutoff_rank": {
+        "general": 72000,
+        "obc": 88000,
+        "sc": 102000,
+        "st": 112000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 20,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.niet.co.in",
+      "contact": "0120-2323040",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Established private engineering institute in Greater Noida with AKTU affiliation and decent placement support."
+    },
+    {
+      "id": 39,
+      "name": "Jaypee Institute of Information Technology (JIIT Noida)",
+      "state": "Uttar Pradesh",
+      "city": "Noida",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "IT",
+        "Biotechnology",
+        "Physics",
+        "Mathematics"
+      ],
+      "fees_per_year": 200000,
+      "entrance_exam": [
+        "JEE Main",
+        "JIIT Entrance"
+      ],
+      "cutoff_rank": {
+        "general": 25000,
+        "obc": 38000,
+        "sc": 55000,
+        "st": 68000
+      },
+      "placement_avg_lpa": 10,
+      "placement_highest_lpa": 42,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.jiit.ac.in",
+      "contact": "0120-2400973",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Research Centers"
+      ],
+      "description": "Reputed deemed university in Noida with strong focus on IT and engineering, known for excellent campus placements."
+    },
+    {
+      "id": 40,
+      "name": "Accurate Institute of Management and Technology",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil"
+      ],
+      "fees_per_year": 100000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPSEE"
+      ],
+      "cutoff_rank": {
+        "general": 85000,
+        "obc": 100000,
+        "sc": 115000,
+        "st": 125000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 14,
+      "hostel": true,
+      "naac_grade": "B",
+      "website": "www.accurate.in",
+      "contact": "0120-2326060",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering and management institute in Greater Noida affiliated to AKTU."
+    },
+    {
+      "id": 41,
+      "name": "IIMT Group of Colleges Greater Noida",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA",
+        "B.Pharma",
+        "BCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil",
+        "Pharmacy"
+      ],
+      "fees_per_year": 90000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPSEE"
+      ],
+      "cutoff_rank": {
+        "general": 90000,
+        "obc": 105000,
+        "sc": 120000,
+        "st": 130000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": true,
+      "naac_grade": "B",
+      "website": "www.iimtindia.net",
+      "contact": "0120-6492400",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Multi-campus private group of colleges in Greater Noida offering technical and management programs under AKTU."
+    },
+    {
+      "id": 42,
+      "name": "Lloyd Institute of Engineering and Technology",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT"
+      ],
+      "fees_per_year": 105000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPSEE"
+      ],
+      "cutoff_rank": {
+        "general": 82000,
+        "obc": 97000,
+        "sc": 112000,
+        "st": 122000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 13,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.lloyd.ac.in",
+      "contact": "0120-2326888",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering college in Greater Noida with AKTU affiliation and industry-oriented curriculum."
+    },
+    {
+      "id": 43,
+      "name": "Greater Noida Institute of Technology (GNIOT)",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 95000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPSEE"
+      ],
+      "cutoff_rank": {
+        "general": 88000,
+        "obc": 102000,
+        "sc": 118000,
+        "st": 128000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.gniot.net",
+      "contact": "0120-2326060",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering institute in Greater Noida affiliated to AKTU with affordable fee structure."
+    },
+    {
+      "id": 44,
+      "name": "ITS Engineering College",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT"
+      ],
+      "fees_per_year": 98000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPSEE"
+      ],
+      "cutoff_rank": {
+        "general": 86000,
+        "obc": 100000,
+        "sc": 115000,
+        "st": 125000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 13,
+      "hostel": true,
+      "naac_grade": "B",
+      "website": "www.its.edu.in",
+      "contact": "0120-2326060",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering college in Greater Noida part of the ITS group with AKTU affiliation."
+    },
+    {
+      "id": 45,
+      "name": "JSS Academy of Technical Education Noida",
+      "state": "Uttar Pradesh",
+      "city": "Noida",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 118000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPSEE"
+      ],
+      "cutoff_rank": {
+        "general": 65000,
+        "obc": 80000,
+        "sc": 95000,
+        "st": 108000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 18,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.jssaten.ac.in",
+      "contact": "0120-2400160",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Complex",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Part of the renowned JSS group from Mysuru, offering quality technical education in Noida with AKTU affiliation."
+    },
+    {
+      "id": 46,
+      "name": "GD Goenka University",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "LLB",
+        "B.Des",
+        "BCA",
+        "B.Sc",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Design",
+        "AI & ML"
+      ],
+      "fees_per_year": 200000,
+      "entrance_exam": [
+        "GD Goenka Entrance",
+        "JEE Main",
+        "CUET"
+      ],
+      "cutoff_rank": {
+        "general": 90000,
+        "obc": 90000,
+        "sc": 90000,
+        "st": 90000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 24,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.gdgoenkauniversity.com",
+      "contact": "0124-3315900",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Swimming Pool"
+      ],
+      "description": "Modern private university in Gurugram offering diverse programs with state-of-the-art campus infrastructure."
+    },
+    {
+      "id": 47,
+      "name": "KR Mangalam University",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BCA",
+        "MCA",
+        "B.Com",
+        "LLB",
+        "B.Sc"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil",
+        "Data Science"
+      ],
+      "fees_per_year": 150000,
+      "entrance_exam": [
+        "KRM Entrance",
+        "JEE Main",
+        "CUET"
+      ],
+      "cutoff_rank": {
+        "general": 95000,
+        "obc": 95000,
+        "sc": 95000,
+        "st": 95000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 20,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.krmangalam.edu.in",
+      "contact": "0124-2888000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private university in Gurugram providing affordable quality education with industry-linked programs."
+    },
+    {
+      "id": 48,
+      "name": "BML Munjal University",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BBA",
+        "B.Com",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML"
+      ],
+      "fees_per_year": 225000,
+      "entrance_exam": [
+        "BMU Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 75000,
+        "obc": 85000,
+        "sc": 95000,
+        "st": 105000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 28,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.bmu.edu.in",
+      "contact": "1800-200-9898",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Auditorium"
+      ],
+      "description": "Hero Group promoted university near Gurugram with industry-integrated curriculum and strong corporate exposure."
+    },
+    {
+      "id": 49,
+      "name": "Ansal University (Sushant University)",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "B.Arch",
+        "MBA",
+        "BBA",
+        "LLB",
+        "B.Des",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "IT",
+        "Architecture",
+        "Design",
+        "Management"
+      ],
+      "fees_per_year": 175000,
+      "entrance_exam": [
+        "Ansal Entrance",
+        "JEE Main",
+        "NATA"
+      ],
+      "cutoff_rank": {
+        "general": 88000,
+        "obc": 88000,
+        "sc": 88000,
+        "st": 88000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 18,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.sushantuniversity.edu.in",
+      "contact": "0124-4566200",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Design Studio",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Private university in Gurugram with a strong design and architecture school alongside engineering and management programs."
+    },
+    {
+      "id": 50,
+      "name": "The NorthCap University",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA",
+        "BCA",
+        "LLB",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 180000,
+      "entrance_exam": [
+        "NCU Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 70000,
+        "obc": 82000,
+        "sc": 95000,
+        "st": 108000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 24,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.ncuindia.edu",
+      "contact": "0124-2338500",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Innovation Lab"
+      ],
+      "description": "Private university in Gurugram offering engineering, management and law programs with a focus on entrepreneurship."
+    },
+    {
+      "id": 51,
+      "name": "Apeejay Stya University",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BBA",
+        "B.Des",
+        "BCA",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "IT",
+        "Design",
+        "Management",
+        "AI & ML"
+      ],
+      "fees_per_year": 165000,
+      "entrance_exam": [
+        "ASU Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 92000,
+        "obc": 92000,
+        "sc": 92000,
+        "st": 92000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 20,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.apeejay.edu",
+      "contact": "0124-3288500",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Design Studio",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Private university in Gurugram with a creative and interdisciplinary approach to technical and design education."
+    },
+    {
+      "id": 52,
+      "name": "IILM University Gurugram",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "BBA",
+        "MBA",
+        "B.Com",
+        "B.Tech",
+        "LLB",
+        "BCA"
+      ],
+      "branches": [
+        "Management",
+        "Computer Science",
+        "IT",
+        "Finance",
+        "Marketing",
+        "Human Resources"
+      ],
+      "fees_per_year": 145000,
+      "entrance_exam": [
+        "IILM Entrance",
+        "CAT",
+        "MAT"
+      ],
+      "cutoff_rank": {
+        "general": 95000,
+        "obc": 95000,
+        "sc": 95000,
+        "st": 95000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 16,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.iilm.edu",
+      "contact": "0124-4763600",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Management-focused private university in Gurugram with strong industry connections and business-oriented programs."
+    },
+    {
+      "id": 53,
+      "name": "IBMR Business School Gurgaon",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "BBA",
+        "MBA",
+        "PGDM",
+        "B.Com"
+      ],
+      "branches": [
+        "Finance",
+        "Marketing",
+        "Human Resources",
+        "Operations",
+        "International Business"
+      ],
+      "fees_per_year": 120000,
+      "entrance_exam": [
+        "IBMR Entrance",
+        "CAT",
+        "MAT",
+        "XAT"
+      ],
+      "cutoff_rank": {
+        "general": 95000,
+        "obc": 95000,
+        "sc": 95000,
+        "st": 95000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 14,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.ibmr.ac.in",
+      "contact": "0124-4236400",
+      "facilities": [
+        "Library",
+        "Case Study Room",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Business school in Gurugram specialising in management and commerce programs with industry mentorship."
+    },
+    {
+      "id": 54,
+      "name": "DPG Institute of Technology and Management",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA",
+        "BCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT"
+      ],
+      "fees_per_year": 105000,
+      "entrance_exam": [
+        "JEE Main",
+        "HSTES"
+      ],
+      "cutoff_rank": {
+        "general": 90000,
+        "obc": 104000,
+        "sc": 118000,
+        "st": 128000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 14,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.dpgitm.ac.in",
+      "contact": "0124-2281330",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering and management institute in Gurugram affiliated to MDU Rohtak."
+    },
+    {
+      "id": 55,
+      "name": "World College of Technology and Management",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil"
+      ],
+      "fees_per_year": 98000,
+      "entrance_exam": [
+        "JEE Main",
+        "HSTES"
+      ],
+      "cutoff_rank": {
+        "general": 92000,
+        "obc": 106000,
+        "sc": 120000,
+        "st": 130000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": true,
+      "naac_grade": "B",
+      "website": "www.wctm.ac.in",
+      "contact": "0124-2338100",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering college in Gurugram affiliated to MDU Rohtak offering technical and management programs."
+    },
+    {
+      "id": 56,
+      "name": "Gurgaon Institute of Technology and Management",
+      "state": "Haryana",
+      "city": "Gurugram",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil"
+      ],
+      "fees_per_year": 95000,
+      "entrance_exam": [
+        "JEE Main",
+        "HSTES"
+      ],
+      "cutoff_rank": {
+        "general": 93000,
+        "obc": 107000,
+        "sc": 121000,
+        "st": 131000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": true,
+      "naac_grade": "B",
+      "website": "www.gitm.ac.in",
+      "contact": "0124-2338200",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering institute in Gurugram providing affordable technical and management education."
+    },
+    {
+      "id": 57,
+      "name": "Manav Rachna University",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BCA",
+        "MCA",
+        "B.Sc",
+        "LLB",
+        "B.Des",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML",
+        "Data Science"
+      ],
+      "fees_per_year": 170000,
+      "entrance_exam": [
+        "MRU Entrance",
+        "JEE Main",
+        "CUET"
+      ],
+      "cutoff_rank": {
+        "general": 80000,
+        "obc": 93000,
+        "sc": 108000,
+        "st": 118000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 22,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.manavrachna.edu.in",
+      "contact": "0129-4198200",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym"
+      ],
+      "description": "Private university in Faridabad offering diverse programs with a strong emphasis on sports and extra-curricular activities."
+    },
+    {
+      "id": 58,
+      "name": "Manav Rachna International Institute of Research and Studies",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "B.Sc",
+        "B.Des",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil",
+        "Design"
+      ],
+      "fees_per_year": 195000,
+      "entrance_exam": [
+        "MRIIRS Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 70000,
+        "obc": 83000,
+        "sc": 97000,
+        "st": 110000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 25,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.mriirs.edu.in",
+      "contact": "0129-4198300",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Research Centers",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Deemed university in Faridabad with research focus offering engineering, design and management programs."
+    },
+    {
+      "id": 59,
+      "name": "Lingaya's Vidyapeeth",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA",
+        "LLB",
+        "B.Sc",
+        "B.Com",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 140000,
+      "entrance_exam": [
+        "Lingaya's Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 85000,
+        "obc": 98000,
+        "sc": 112000,
+        "st": 122000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 18,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.lingayasvidyapeeth.edu.in",
+      "contact": "0129-4082000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Deemed private university in Faridabad offering technical, management and law programs with affordable fees."
+    },
+    {
+      "id": 60,
+      "name": "Echelon Institute of Technology",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT"
+      ],
+      "fees_per_year": 95000,
+      "entrance_exam": [
+        "JEE Main",
+        "HSTES"
+      ],
+      "cutoff_rank": {
+        "general": 90000,
+        "obc": 104000,
+        "sc": 118000,
+        "st": 128000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 13,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.eitfaridabad.ac.in",
+      "contact": "0129-4082100",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering institute in Faridabad affiliated to MDU Rohtak offering core and IT engineering programs."
+    },
+    {
+      "id": 61,
+      "name": "Aravali College of Engineering and Management",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT"
+      ],
+      "fees_per_year": 92000,
+      "entrance_exam": [
+        "JEE Main",
+        "HSTES"
+      ],
+      "cutoff_rank": {
+        "general": 91000,
+        "obc": 105000,
+        "sc": 119000,
+        "st": 129000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": true,
+      "naac_grade": "B",
+      "website": "www.acem.ac.in",
+      "contact": "0129-2280099",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering and management college in Faridabad affiliated to MDU Rohtak."
+    },
+    {
+      "id": 62,
+      "name": "DAV Institute of Management",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Private",
+      "courses": [
+        "BBA",
+        "MBA",
+        "B.Com",
+        "PGDM"
+      ],
+      "branches": [
+        "Finance",
+        "Marketing",
+        "Human Resources",
+        "Operations",
+        "International Business"
+      ],
+      "fees_per_year": 85000,
+      "entrance_exam": [
+        "DAV Entrance",
+        "CAT",
+        "MAT"
+      ],
+      "cutoff_rank": {
+        "general": 93000,
+        "obc": 93000,
+        "sc": 93000,
+        "st": 93000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": false,
+      "naac_grade": "B+",
+      "website": "www.davim.ac.in",
+      "contact": "0129-2281108",
+      "facilities": [
+        "Library",
+        "Case Study Room",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "DAV group management institute in Faridabad with industry-connected MBA and BBA programs."
+    },
+    {
+      "id": 63,
+      "name": "Satya Group of Institutions",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BCA",
+        "MCA",
+        "B.Pharma"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil",
+        "Pharmacy"
+      ],
+      "fees_per_year": 88000,
+      "entrance_exam": [
+        "JEE Main",
+        "HSTES"
+      ],
+      "cutoff_rank": {
+        "general": 93000,
+        "obc": 107000,
+        "sc": 121000,
+        "st": 131000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": true,
+      "naac_grade": "B",
+      "website": "www.satyagroup.ac.in",
+      "contact": "0129-2281200",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private group of colleges in Faridabad offering engineering, pharmacy and management programs under MDU affiliation."
+    },
+    {
+      "id": 64,
+      "name": "Rawal Institute of Engineering and Technology",
+      "state": "Haryana",
+      "city": "Faridabad",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 90000,
+      "entrance_exam": [
+        "JEE Main",
+        "HSTES"
+      ],
+      "cutoff_rank": {
+        "general": 92000,
+        "obc": 106000,
+        "sc": 120000,
+        "st": 130000
+      },
+      "placement_avg_lpa": 4,
+      "placement_highest_lpa": 12,
+      "hostel": true,
+      "naac_grade": "B+",
+      "website": "www.rawalpvt.ac.in",
+      "contact": "0129-2281300",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Private engineering institute in Faridabad affiliated to MDU Rohtak with strong practical training focus."
+    },
+    {
+      "id": 65,
+      "name": "RIIM Pune (Rajgad Dnyanpeeth's Research Institute of Islamic Management)",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "MBA",
+        "PGDM",
+        "BBA"
+      ],
+      "branches": [
+        "Finance",
+        "Marketing",
+        "Human Resources",
+        "Operations",
+        "International Business"
+      ],
+      "fees_per_year": 180000,
+      "entrance_exam": [
+        "CAT",
+        "MAT",
+        "CMAT",
+        "XAT"
+      ],
+      "cutoff_rank": {
+        "general": 85,
+        "obc": 80,
+        "sc": 75,
+        "st": 70
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 18,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.riimpune.org.in",
+      "contact": "020-24390210",
+      "facilities": [
+        "Library",
+        "Case Study Rooms",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Management institute in Pune offering MBA and PGDM programs with strong industry linkages and placement support."
+    },
+    {
+      "id": 66,
+      "name": "Indira University Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "BBA",
+        "MBA",
+        "B.Com",
+        "MCA",
+        "B.Tech"
+      ],
+      "branches": [
+        "Management",
+        "Commerce",
+        "Computer Science",
+        "Finance",
+        "Marketing"
+      ],
+      "fees_per_year": 120000,
+      "entrance_exam": [
+        "CMAT",
+        "MAT",
+        "Indira Entrance"
+      ],
+      "cutoff_rank": {
+        "general": 80,
+        "obc": 75,
+        "sc": 70,
+        "st": 65
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 14,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.indiraedu.com",
+      "contact": "020-22933209",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Sports Ground"
+      ],
+      "description": "Pune-based private university offering management, commerce and technology programs with affordable fee structure."
+    },
+    {
+      "id": 67,
+      "name": "PIBM Pune (Pune Institute of Business Management)",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "MBA",
+        "PGDM"
+      ],
+      "branches": [
+        "Finance",
+        "Marketing",
+        "Human Resources",
+        "Operations",
+        "International Business",
+        "Business Analytics"
+      ],
+      "fees_per_year": 500000,
+      "entrance_exam": [
+        "CAT",
+        "MAT",
+        "CMAT",
+        "XAT",
+        "GMAT"
+      ],
+      "cutoff_rank": {
+        "general": 88,
+        "obc": 83,
+        "sc": 78,
+        "st": 73
+      },
+      "placement_avg_lpa": 9,
+      "placement_highest_lpa": 28,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.pibm.in",
+      "contact": "020-67222222",
+      "facilities": [
+        "Library",
+        "Case Study Rooms",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Auditorium"
+      ],
+      "description": "Premium B-school in Pune with 100% placement record, known for rigorous management education and strong corporate connections."
+    },
+    {
+      "id": 68,
+      "name": "DY Patil B-School Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "MBA",
+        "PGDM",
+        "Executive MBA"
+      ],
+      "branches": [
+        "Finance",
+        "Marketing",
+        "Human Resources",
+        "Operations",
+        "Healthcare Management",
+        "Sports Management"
+      ],
+      "fees_per_year": 380000,
+      "entrance_exam": [
+        "CAT",
+        "MAT",
+        "CMAT",
+        "XAT"
+      ],
+      "cutoff_rank": {
+        "general": 82,
+        "obc": 77,
+        "sc": 72,
+        "st": 67
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 22,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.dypbs.com",
+      "contact": "020-27804400",
+      "facilities": [
+        "Library",
+        "Case Study Rooms",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Sports Complex"
+      ],
+      "description": "DY Patil Group's premier B-school in Pune offering industry-integrated MBA and PGDM programs with international exposure."
+    },
+    {
+      "id": 69,
+      "name": "Vishwakarma Institute of Technology (VIT) Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML",
+        "Data Science"
+      ],
+      "fees_per_year": 175000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 18000,
+        "obc": 25000,
+        "sc": 38000,
+        "st": 50000
+      },
+      "placement_avg_lpa": 8,
+      "placement_highest_lpa": 32,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.vit.edu",
+      "contact": "020-24204390",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Innovation Lab"
+      ],
+      "description": "Reputed autonomous engineering institute in Pune affiliated to Savitribai Phule Pune University with excellent placement record."
+    },
+    {
+      "id": 70,
+      "name": "SVKM's Dwarkadas J. Sanghvi College of Engineering, Mumbai",
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil",
+        "Electrical",
+        "AI & ML"
+      ],
+      "fees_per_year": 190000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 8000,
+        "obc": 14000,
+        "sc": 22000,
+        "st": 30000
+      },
+      "placement_avg_lpa": 10,
+      "placement_highest_lpa": 42,
+      "hostel": false,
+      "naac_grade": "A+",
+      "website": "www.djsce.ac.in",
+      "contact": "022-42335000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi",
+        "Research Centers"
+      ],
+      "description": "One of Mumbai's top autonomous engineering colleges under Mumbai University with outstanding CS and IT placements."
+    },
+    {
+      "id": 71,
+      "name": "KJ Somaiya College of Engineering, Mumbai",
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil",
+        "Electrical",
+        "Data Science"
+      ],
+      "fees_per_year": 185000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 10000,
+        "obc": 16000,
+        "sc": 25000,
+        "st": 34000
+      },
+      "placement_avg_lpa": 9,
+      "placement_highest_lpa": 38,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.somaiya.edu",
+      "contact": "022-67283000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Complex",
+        "Cafeteria",
+        "Wi-Fi",
+        "Incubation Center"
+      ],
+      "description": "Prestigious autonomous engineering college in Mumbai known for strong industry connect and consistent placement performance."
+    },
+    {
+      "id": 72,
+      "name": "MKSSS's Cummins College of Engineering for Women, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil",
+        "Electrical"
+      ],
+      "fees_per_year": 160000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 14000,
+        "obc": 20000,
+        "sc": 32000,
+        "st": 44000
+      },
+      "placement_avg_lpa": 8,
+      "placement_highest_lpa": 30,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.cumminscollege.in",
+      "contact": "020-30237300",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi",
+        "Women's Safety Cell"
+      ],
+      "description": "Top women's engineering college in Pune offering autonomous programs with excellent placement and safe campus environment."
+    },
+    {
+      "id": 73,
+      "name": "MIT World Peace University (MIT-WPU), Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private Deemed",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "MCA",
+        "BCA",
+        "B.Des",
+        "LLB",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML",
+        "Data Science",
+        "Design"
+      ],
+      "fees_per_year": 210000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET",
+        "MIT-WPU Entrance"
+      ],
+      "cutoff_rank": {
+        "general": 20000,
+        "obc": 28000,
+        "sc": 42000,
+        "st": 55000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 28,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.mitwpu.edu.in",
+      "contact": "020-71177104",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Auditorium"
+      ],
+      "description": "Deemed university in Pune promoted by MIT Group offering diverse programs with focus on innovation and entrepreneurship."
+    },
+    {
+      "id": 74,
+      "name": "Symbiosis Institute of Technology (SIT), Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML",
+        "Robotics"
+      ],
+      "fees_per_year": 280000,
+      "entrance_exam": [
+        "JEE Main",
+        "SET",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 12000,
+        "obc": 18000,
+        "sc": 28000,
+        "st": 38000
+      },
+      "placement_avg_lpa": 9,
+      "placement_highest_lpa": 35,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.sitpune.edu.in",
+      "contact": "020-28116467",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Research Centers"
+      ],
+      "description": "Engineering wing of Symbiosis International University, known for quality technical education and vibrant campus life."
+    },
+    {
+      "id": 75,
+      "name": "G.H. Raisoni College of Engineering, Nagpur",
+      "state": "Maharashtra",
+      "city": "Nagpur",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical",
+        "AI & ML"
+      ],
+      "fees_per_year": 130000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 30000,
+        "obc": 42000,
+        "sc": 58000,
+        "st": 72000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 22,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.raisoni.net",
+      "contact": "0712-6607900",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Leading private engineering college in Nagpur under RTMNU with good placement record across IT and core sectors."
+    },
+    {
+      "id": 76,
+      "name": "Pimpri Chinchwad College of Engineering (PCCOE), Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical",
+        "AI & ML"
+      ],
+      "fees_per_year": 155000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 16000,
+        "obc": 23000,
+        "sc": 36000,
+        "st": 48000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 26,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.pccoepune.org",
+      "contact": "020-27653685",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Innovation Lab"
+      ],
+      "description": "Well-established autonomous engineering college in PCMC Pune known for quality education and strong alumni network."
+    },
+    {
+      "id": 77,
+      "name": "D.Y. Patil College of Engineering, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 148000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 22000,
+        "obc": 32000,
+        "sc": 46000,
+        "st": 60000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 20,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.dypcoeakurdi.ac.in",
+      "contact": "020-27653400",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "DY Patil Group engineering college in Pune affiliated to Savitribai Phule Pune University with decent placement outcomes."
+    },
+    {
+      "id": 78,
+      "name": "Bharati Vidyapeeth College of Engineering, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 140000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 24000,
+        "obc": 34000,
+        "sc": 50000,
+        "st": 64000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 20,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.bvcoepune.edu.in",
+      "contact": "020-24372711",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Bharati Vidyapeeth's flagship engineering college in Pune with solid academia and decent industry exposure."
+    },
+    {
+      "id": 79,
+      "name": "MIT ADT University, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private Deemed",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BCA",
+        "MCA",
+        "B.Des",
+        "M.Tech",
+        "LLB",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil",
+        "Design",
+        "AI & ML",
+        "Data Science"
+      ],
+      "fees_per_year": 195000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET",
+        "MIT ADT Entrance"
+      ],
+      "cutoff_rank": {
+        "general": 25000,
+        "obc": 36000,
+        "sc": 52000,
+        "st": 66000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 22,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.mituniversity.edu.in",
+      "contact": "020-27409100",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Cultural Hub"
+      ],
+      "description": "Deemed university in Pune by MIT Group offering multi-disciplinary programs with emphasis on creativity and innovation."
+    },
+    {
+      "id": 80,
+      "name": "Dr. D.Y. Patil Institute of Technology, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 142000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 26000,
+        "obc": 37000,
+        "sc": 54000,
+        "st": 68000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 18,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.dypvp.edu.in",
+      "contact": "020-27420094",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "D.Y. Patil Group's engineering institute in Pune affiliated to SPPU with competent faculty and industry training programs."
+    },
+    {
+      "id": 81,
+      "name": "Army Institute of Technology (AIT), Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Government Aided",
+      "courses": [
+        "B.Tech",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Civil"
+      ],
+      "fees_per_year": 95000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 8000,
+        "obc": 12000,
+        "sc": 20000,
+        "st": 28000
+      },
+      "placement_avg_lpa": 9,
+      "placement_highest_lpa": 36,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.aitpune.com",
+      "contact": "020-27022099",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "NCC Unit"
+      ],
+      "description": "Prestigious government-aided engineering college for wards of Army personnel in Pune with excellent discipline and placements."
+    },
+    {
+      "id": 82,
+      "name": "AISSMS College of Engineering, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical"
+      ],
+      "fees_per_year": 135000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 20000,
+        "obc": 29000,
+        "sc": 44000,
+        "st": 57000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 20,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.aissmscoe.com",
+      "contact": "020-24057101",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hostel",
+        "Sports Ground",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "City-based private engineering college in Pune affiliated to Savitribai Phule Pune University with decent faculty and placements."
+    },
+    {
+      "id": 83,
+      "name": "D.Y. Patil University, Navi Mumbai",
+      "state": "Maharashtra",
+      "city": "Navi Mumbai",
+      "type": "Deemed Private",
+      "courses": [
+        "MBBS",
+        "B.Tech",
+        "MBA",
+        "B.Pharma",
+        "BCA",
+        "LLB",
+        "B.Sc",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Medicine",
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "IT",
+        "Pharmacy",
+        "Biotechnology"
+      ],
+      "fees_per_year": 300000,
+      "entrance_exam": [
+        "NEET",
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 15000,
+        "obc": 22000,
+        "sc": 34000,
+        "st": 46000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 25,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.dypatil.edu",
+      "contact": "022-27422222",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hospital",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym"
+      ],
+      "description": "Multi-disciplinary deemed university in Navi Mumbai with a strong medical school and technical programs."
+    },
+    {
+      "id": 84,
+      "name": "RCOEM Nagpur (Shri Ramdeobaba College of Engineering & Management)",
+      "state": "Maharashtra",
+      "city": "Nagpur",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical",
+        "AI & ML"
+      ],
+      "fees_per_year": 125000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 25000,
+        "obc": 36000,
+        "sc": 52000,
+        "st": 66000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 26,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.rknec.edu",
+      "contact": "0712-2580011",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Innovation Center"
+      ],
+      "description": "Top autonomous engineering college in Nagpur with strong alumni base and consistent campus placement performance."
+    },
+    {
+      "id": 85,
+      "name": "Walchand College of Engineering (WCE), Sangli",
+      "state": "Maharashtra",
+      "city": "Sangli",
+      "type": "Government Aided",
+      "courses": [
+        "B.Tech",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Electrical",
+        "IT",
+        "Production"
+      ],
+      "fees_per_year": 80000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 6000,
+        "obc": 9000,
+        "sc": 15000,
+        "st": 22000
+      },
+      "placement_avg_lpa": 9,
+      "placement_highest_lpa": 38,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.walchandsangli.ac.in",
+      "contact": "0233-2702128",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Research Labs"
+      ],
+      "description": "One of Maharashtra's oldest and most reputed government-aided engineering colleges with outstanding faculty and alumni."
+    },
+    {
+      "id": 86,
+      "name": "Bharati Vidyapeeth University, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "MBBS",
+        "MBA",
+        "LLB",
+        "B.Pharma",
+        "MCA",
+        "B.Sc",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Medicine",
+        "Pharmacy",
+        "Law",
+        "Management"
+      ],
+      "fees_per_year": 170000,
+      "entrance_exam": [
+        "NEET",
+        "JEE Main",
+        "MHT-CET",
+        "CMAT"
+      ],
+      "cutoff_rank": {
+        "general": 20000,
+        "obc": 30000,
+        "sc": 45000,
+        "st": 58000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 22,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.bvuniversity.edu.in",
+      "contact": "020-24407100",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hospital",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Multi-faculty deemed university in Pune offering programs across engineering, medicine, law, management and sciences."
+    },
+    {
+      "id": 87,
+      "name": "Amrita Vishwa Vidyapeetham",
+      "state": "Tamil Nadu",
+      "city": "Coimbatore",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA",
+        "B.Sc",
+        "M.Sc",
+        "MBBS",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML",
+        "Cyber Security",
+        "Biotechnology"
+      ],
+      "fees_per_year": 220000,
+      "entrance_exam": [
+        "JEE Main",
+        "AEEE",
+        "NEET"
+      ],
+      "cutoff_rank": {
+        "general": 10000,
+        "obc": 15000,
+        "sc": 24000,
+        "st": 33000
+      },
+      "placement_avg_lpa": 8,
+      "placement_highest_lpa": 35,
+      "hostel": true,
+      "naac_grade": "A++",
+      "website": "www.amrita.edu",
+      "contact": "0422-2685000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hospital",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Research Centers"
+      ],
+      "description": "Top-ranked deemed university with campuses across India, known for research output, holistic education and strong placements."
+    },
+    {
+      "id": 88,
+      "name": "DY Patil International University, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BBA",
+        "BCA",
+        "MCA",
+        "B.Des",
+        "M.Tech"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "IT",
+        "Mechanical",
+        "AI & ML",
+        "Data Science",
+        "Design",
+        "Management"
+      ],
+      "fees_per_year": 250000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET",
+        "DYPIPU Entrance"
+      ],
+      "cutoff_rank": {
+        "general": 30000,
+        "obc": 42000,
+        "sc": 60000,
+        "st": 75000
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 24,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.dpu.edu.in",
+      "contact": "020-27184000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Innovation Hub"
+      ],
+      "description": "International-focused private university in Pune offering global curriculum with strong industry partnerships."
+    },
+    {
+      "id": 89,
+      "name": "UPES (University of Petroleum and Energy Studies)",
+      "state": "Uttarakhand",
+      "city": "Dehradun",
+      "type": "Private Deemed",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "LLB",
+        "B.Sc",
+        "BBA",
+        "MCA",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Petroleum Engineering",
+        "Chemical",
+        "Mechanical",
+        "Civil",
+        "Electrical",
+        "AI & ML",
+        "Cyber Security"
+      ],
+      "fees_per_year": 260000,
+      "entrance_exam": [
+        "JEE Main",
+        "UPES Entrance",
+        "UPESEAT"
+      ],
+      "cutoff_rank": {
+        "general": 40000,
+        "obc": 55000,
+        "sc": 72000,
+        "st": 88000
+      },
+      "placement_avg_lpa": 8,
+      "placement_highest_lpa": 42,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.upes.ac.in",
+      "contact": "1800-102-8737",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Incubation Center"
+      ],
+      "description": "Specialized deemed university in Dehradun with niche energy-sector programs and strong oil & gas industry placement."
+    },
+    {
+      "id": 90,
+      "name": "Christ University, Bangalore",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "BBA",
+        "B.Com",
+        "BA",
+        "MBA",
+        "MCA",
+        "LLB",
+        "B.Sc",
+        "M.Sc",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "IT",
+        "Commerce",
+        "Management",
+        "Humanities",
+        "Law",
+        "Sciences"
+      ],
+      "fees_per_year": 180000,
+      "entrance_exam": [
+        "CUET",
+        "Christ Entrance",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 92,
+        "obc": 88,
+        "sc": 82,
+        "st": 76
+      },
+      "placement_avg_lpa": 7,
+      "placement_highest_lpa": 28,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.christuniversity.in",
+      "contact": "080-40129100",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Chapel",
+        "Cultural Center"
+      ],
+      "description": "Prestigious deemed university in Bangalore known for quality education across disciplines with a strong value-based approach."
+    },
+    {
+      "id": 91,
+      "name": "SRM Institute of Science and Technology (SRM University)",
+      "state": "Tamil Nadu",
+      "city": "Chennai",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA",
+        "MBBS",
+        "B.Sc",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML",
+        "Biotechnology",
+        "Aerospace"
+      ],
+      "fees_per_year": 230000,
+      "entrance_exam": [
+        "SRMJEEE",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 20000,
+        "obc": 30000,
+        "sc": 45000,
+        "st": 58000
+      },
+      "placement_avg_lpa": 8,
+      "placement_highest_lpa": 44,
+      "hostel": true,
+      "naac_grade": "A++",
+      "website": "www.srmist.edu.in",
+      "contact": "044-27417777",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hospital",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Research Centers"
+      ],
+      "description": "One of India's largest private universities known for excellent infrastructure, research output and multinational campus placements."
+    },
+    {
+      "id": 92,
+      "name": "Ramaiah Institute of Technology, Bangalore",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical",
+        "Chemical",
+        "Telecommunication"
+      ],
+      "fees_per_year": 210000,
+      "entrance_exam": [
+        "JEE Main",
+        "KCET",
+        "COMEDK"
+      ],
+      "cutoff_rank": {
+        "general": 5000,
+        "obc": 8000,
+        "sc": 14000,
+        "st": 20000
+      },
+      "placement_avg_lpa": 11,
+      "placement_highest_lpa": 48,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.msrit.edu",
+      "contact": "080-23600822",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Research Centers"
+      ],
+      "description": "Top autonomous engineering college in Bangalore affiliated to VTU with stellar CS and IT campus placements."
+    },
+    {
+      "id": 93,
+      "name": "BMS College of Engineering, Bangalore",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical",
+        "Chemical",
+        "Industrial Engineering"
+      ],
+      "fees_per_year": 195000,
+      "entrance_exam": [
+        "JEE Main",
+        "KCET",
+        "COMEDK"
+      ],
+      "cutoff_rank": {
+        "general": 4000,
+        "obc": 7000,
+        "sc": 12000,
+        "st": 18000
+      },
+      "placement_avg_lpa": 12,
+      "placement_highest_lpa": 52,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.bmsce.ac.in",
+      "contact": "080-26622130",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Innovation Lab"
+      ],
+      "description": "One of Bangalore's oldest and most reputed autonomous engineering colleges with consistently excellent tech placements."
+    },
+    {
+      "id": 94,
+      "name": "Nitte University (Nitte Deemed to be University)",
+      "state": "Karnataka",
+      "city": "Mangalore",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "MBBS",
+        "BDS",
+        "B.Pharma",
+        "MBA",
+        "MCA",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Medicine",
+        "Dentistry",
+        "Pharmacy"
+      ],
+      "fees_per_year": 185000,
+      "entrance_exam": [
+        "NEET",
+        "JEE Main",
+        "KCET",
+        "Nitte Entrance"
+      ],
+      "cutoff_rank": {
+        "general": 25000,
+        "obc": 36000,
+        "sc": 52000,
+        "st": 66000
+      },
+      "placement_avg_lpa": 6,
+      "placement_highest_lpa": 22,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.nitte.edu.in",
+      "contact": "0824-2204300",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Hospital",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Deemed university in Mangalore with strong medical, dental and engineering schools and a values-driven campus culture."
+    },
+    {
+      "id": 95,
+      "name": "RV College of Engineering, Bangalore",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical",
+        "Biotechnology",
+        "Chemical"
+      ],
+      "fees_per_year": 200000,
+      "entrance_exam": [
+        "JEE Main",
+        "KCET",
+        "COMEDK"
+      ],
+      "cutoff_rank": {
+        "general": 3500,
+        "obc": 6000,
+        "sc": 10000,
+        "st": 15000
+      },
+      "placement_avg_lpa": 13,
+      "placement_highest_lpa": 58,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.rvce.edu.in",
+      "contact": "080-67178000",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Research Centers",
+        "Incubation Center"
+      ],
+      "description": "One of Bangalore's premier autonomous engineering colleges affiliated to VTU with outstanding placements in top tech companies."
+    },
+    {
+      "id": 96,
+      "name": "Shiv Nadar University, Greater Noida",
+      "state": "Uttar Pradesh",
+      "city": "Greater Noida",
+      "type": "Private Deemed",
+      "courses": [
+        "B.Tech",
+        "B.Sc",
+        "MBA",
+        "M.Tech",
+        "Ph.D",
+        "B.Design"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Chemical",
+        "Physics",
+        "Mathematics",
+        "Data Science"
+      ],
+      "fees_per_year": 350000,
+      "entrance_exam": [
+        "SNUSAT",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 15000,
+        "obc": 20000,
+        "sc": 30000,
+        "st": 40000
+      },
+      "placement_avg_lpa": 14,
+      "placement_highest_lpa": 65,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.snu.edu.in",
+      "contact": "0120-3819100",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Research Centers",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym"
+      ],
+      "description": "Research-focused premium private university in Greater Noida with world-class faculty and excellent industry connections."
+    },
+    {
+      "id": 97,
+      "name": "Vellore Institute of Technology (VIT)",
+      "state": "Tamil Nadu",
+      "city": "Vellore",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA",
+        "Ph.D",
+        "B.Sc"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML",
+        "Biotechnology",
+        "Aerospace",
+        "Chemical"
+      ],
+      "fees_per_year": 220000,
+      "entrance_exam": [
+        "VITEEE",
+        "JEE Main"
+      ],
+      "cutoff_rank": {
+        "general": 10000,
+        "obc": 16000,
+        "sc": 26000,
+        "st": 36000
+      },
+      "placement_avg_lpa": 10,
+      "placement_highest_lpa": 52,
+      "hostel": true,
+      "naac_grade": "A++",
+      "website": "www.vit.ac.in",
+      "contact": "0416-2243091",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Research Centers",
+        "International Programs"
+      ],
+      "description": "One of India's top deemed universities with over 30,000 students, strong research culture and outstanding multinational placements."
+    },
+    {
+      "id": 98,
+      "name": "PES University, Bangalore",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA",
+        "B.Sc"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "AI & ML",
+        "Data Science",
+        "Biotechnology"
+      ],
+      "fees_per_year": 320000,
+      "entrance_exam": [
+        "PESSAT",
+        "JEE Main",
+        "KCET"
+      ],
+      "cutoff_rank": {
+        "general": 6000,
+        "obc": 10000,
+        "sc": 18000,
+        "st": 26000
+      },
+      "placement_avg_lpa": 12,
+      "placement_highest_lpa": 55,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.pes.edu",
+      "contact": "080-26721983",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Research Centers",
+        "Incubation Center"
+      ],
+      "description": "Top private deemed university in Bangalore known for excellent CS/IT placements in top tech companies and a vibrant startup ecosystem."
+    },
+    {
+      "id": 99,
+      "name": "Symbiosis University, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Deemed Private",
+      "courses": [
+        "B.Tech",
+        "MBA",
+        "BBA",
+        "LLB",
+        "BCA",
+        "MCA",
+        "B.Des",
+        "B.Sc",
+        "M.Tech",
+        "Ph.D"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "IT",
+        "Management",
+        "Law",
+        "Design",
+        "Media",
+        "Health Sciences"
+      ],
+      "fees_per_year": 275000,
+      "entrance_exam": [
+        "SET",
+        "JEE Main",
+        "MHT-CET",
+        "SLAT"
+      ],
+      "cutoff_rank": {
+        "general": 12000,
+        "obc": 18000,
+        "sc": 28000,
+        "st": 38000
+      },
+      "placement_avg_lpa": 9,
+      "placement_highest_lpa": 38,
+      "hostel": true,
+      "naac_grade": "A+",
+      "website": "www.siu.edu.in",
+      "contact": "020-28116226",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Complex",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi",
+        "Gym",
+        "Cultural Center",
+        "Health Center"
+      ],
+      "description": "Prestigious multi-disciplinary deemed university in Pune with global collaborations, diverse programs and strong placement outcomes."
+    },
+    {
+      "id": 100,
+      "name": "Sinhgad Institutes, Pune",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "type": "Private",
+      "courses": [
+        "B.Tech",
+        "M.Tech",
+        "MBA",
+        "MCA",
+        "B.Pharma",
+        "BBA",
+        "BCA"
+      ],
+      "branches": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "IT",
+        "Electrical",
+        "AI & ML"
+      ],
+      "fees_per_year": 120000,
+      "entrance_exam": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "cutoff_rank": {
+        "general": 28000,
+        "obc": 40000,
+        "sc": 58000,
+        "st": 72000
+      },
+      "placement_avg_lpa": 5,
+      "placement_highest_lpa": 18,
+      "hostel": true,
+      "naac_grade": "A",
+      "website": "www.sinhgad.edu",
+      "contact": "020-24354007",
+      "facilities": [
+        "Library",
+        "Labs",
+        "Sports Ground",
+        "Hostel",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "description": "Large private group of colleges in Pune under SPPU with multiple campuses offering affordable technical and management education."
+    }
+  ]
+}

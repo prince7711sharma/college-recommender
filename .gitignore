@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+*.egg-info/
+dist/
+build/
+
+# We are deploying the API and serving the UI from it
+serve_ui.py
